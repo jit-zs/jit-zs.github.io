@@ -1,5 +1,7 @@
 body{
   background: linear-gradient(to right top, black, rgba(80, 40, 40, 0.5));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 button{
   background-color: rgba(40, 40, 40, 0.4);
