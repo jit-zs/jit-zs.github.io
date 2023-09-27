@@ -2,6 +2,7 @@ body{
   background: linear-gradient(to right top, black, rgba(80, 40, 40, 0.5));
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: "roboto", "consolas", sans-serif;
 }
 button{
   background-color: rgba(40, 40, 40, 0.4);
@@ -11,3 +12,4 @@ button{
   border-style: solid;
   border-color: rgb(20, 20, 20);
 }
+
