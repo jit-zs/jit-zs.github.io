@@ -1,3 +1,6 @@
+body{
+  background: linear-gradiend(to right top, black, rgba(80, 40, 40, 0.5));
+}
 button{
   background-color: rgba(40, 40, 40, 0.4);
   color: white;
