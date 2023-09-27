@@ -7,10 +7,10 @@ body{
 button{
   background-color: rgba(40, 40, 40, 0.4);
   color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: 45px;
   border-radius: 5px;
   border-style: solid;
