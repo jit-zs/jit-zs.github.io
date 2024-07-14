@@ -1,50 +1,53 @@
-h1{
-    text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-div{
-    text-align: center;
-}
-body{
-    color: black;
-    background-image: linear-gradient(coral, black);
-    background-repeat: no-repeat;
-}
-html{
+
+html, body{
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
     height: 100%;
+   
+    background-color: rgb(32, 32, 32);
+    color:white;
 }
-fieldset{
-    background: linear-gradient(maroon, black);
-    background-color: maroon;
-}
-hr{
-    color: black;
-}
-button{
-    border: 0%;
-    background-color: rgb(30, 30, 30);
-    border-style: hidden;
-    color: gray;
-}
-code{
-    background-color: rgb(55, 55, 55);
-}
-.codeblock{
-    background-color: rgb(55, 55, 55);
-}
-fieldset.codeblock{
-    background: rgb(55, 55, 55);
+.nav_bar{
+    width: 15%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
 }
 
-.linkbar {
-    background-color: rgb(55, 0, 55);
-    bottom: 0;
-    width: 100%;
-    position: bottom;
-    bottom: 0%;
-    left: 0%;
+.nav_bar .button_panel{
+    width: 100px;
+    color: rgb(45, 45, 45);
 }
-.linkbar button:active{
-    background-color: white;
+.nav_bar h1{
+    color: white;
+    background-color: rgb(199, 33, 33);
+    height: 10%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.nav_bar button{
+    text-align: left;
+    border-width: 0px;
+    width: 100%;
+    height: 10%;
+    font-size: 200%;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+fieldset{
+    color: white;
+    background-color: black;
+    border-width: 0;
+    
 }
