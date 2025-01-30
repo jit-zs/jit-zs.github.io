@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "PixelFont";
+    src: url("/Fonts/PublicPixel-rv0pA.ttf");
+}
+@font-face {
+    font-family: "LEMONMILK";
+    src: url("/Fonts/LEMON-MILK/LEMONMILK-Medium.otf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "LEMONMILK";
+}
+
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+
+.mainPanel div{
+    width: 100%;
+    min-height: fit-content;
+    top: 0%;
+    overflow: hidden;
+    background-color: rgb(32, 32, 64);
+
+  
+    position: fixed;
+
+}
+@keyframes jigglehover {
+    25%{
+        rotate: -2.5deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+    75%{
+        rotate: 2.5deg;
+    }
+    100%{
+        rotate: 0deg
+    }
+} 
+.buttonPanel h1{
+    color: white;
+    font-size: 100%;
+    width: 130%;
+    
+}
+.buttonPanel div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    overflow: visible;
+}
+.buttonPanel button{  
+    color: lightgray;
+    background-color: darkslategray;
+    border-style:solid;
+
+    width: 100%;
+    height: 2%;
+}
+.buttonPanel button:hover:enabled  {
+    animation-name: jigglehover;
+    animation-duration: 0.05s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.buttonPanel fieldset{
+    border-style: none; 
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
